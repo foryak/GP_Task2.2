@@ -3,9 +3,6 @@ package by.yakovchik.task2_2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Main {
 
@@ -13,10 +10,13 @@ public class Main {
 
         String expression = readExpression();
 
-        if (Validation.check(expression)) System.out.println("result = " + Calculator.eval(expression));
+        if (Validation.check(expression)) System.out.println("result:" + Calculator.eval(expression));
 
     }
 
+    /**
+     * Метод читает строку из консоли и возвращет ее
+     */
     private static String readExpression(){
 
         try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {

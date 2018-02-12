@@ -3,6 +3,9 @@ package by.yakovchik.task2_2;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Класс для проверки валидности введеной строки
+ */
 public class Validation {
 
     public static boolean check(String str) {
