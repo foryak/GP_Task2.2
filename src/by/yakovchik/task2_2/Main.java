@@ -15,7 +15,7 @@ public class Main {
     }
 
     /**
-     * Метод читает строку из консоли и возвращет ее
+     * Метод читает строку из консоли и возвращает ее
      */
     private static String readExpression(){
 
