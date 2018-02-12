@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 
 /**
- *  Класс в котормо парсится строка и производятся расчеты
+ *  Класс в котором парсится строка и производятся расчеты
  */
 public class Calculator {
 
